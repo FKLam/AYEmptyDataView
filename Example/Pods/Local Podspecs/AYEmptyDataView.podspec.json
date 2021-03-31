@@ -1,0 +1,34 @@
+{
+  "name": "AYEmptyDataView",
+  "version": "0.1.0",
+  "summary": "TableView与Collectionview空数据时显示的view.",
+  "description": "TODO: TableView与Collectionview空数据时显示的view 为空的界面显示.",
+  "homepage": "https://github.com/FKLam/AYEmptyDataView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amg": "lfk0120@163.com"
+  },
+  "source": {
+    "git": "https://github.com/FKLam/AYEmptyDataView.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "http://seongbrave.github.io/",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AYEmptyDataView/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.1.2"
+    ],
+    "RxCocoa": [
+      "~> 4.1.2"
+    ],
+    "SnapKit": [
+      "~> 4.0.0"
+    ]
+  }
+}

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F3F7824454B5B6099AE3E6B /* Pods_AYEmptyDataView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12439569CDFC15946468249 /* Pods_AYEmptyDataView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -15,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		93283B8096FCACD917E05C3D /* Pods_AYEmptyDataView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F298D94DF0ECBEF5B1414BB0 /* Pods_AYEmptyDataView_Tests.framework */; };
+		99658099261419540019FC5C /* Pods_AYEmptyDataView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99658098261419540019FC5C /* Pods_AYEmptyDataView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4BE7F6F463F27718E295366C /* AYEmptyDataView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AYEmptyDataView.podspec; path = ../AYEmptyDataView.podspec; sourceTree = "<group>"; };
+		4BE7F6F463F27718E295366C /* AYEmptyDataView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AYEmptyDataView.podspec; path = ../AYEmptyDataView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5FBFAF3F1F2BBE86378B1A17 /* Pods-AYEmptyDataView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYEmptyDataView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AYEmptyDataView_Tests/Pods-AYEmptyDataView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AYEmptyDataView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYEmptyDataView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,10 @@
 		6D8CF96563C16E7BE1A987F1 /* Pods-AYEmptyDataView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYEmptyDataView_Example.debug.xcconfig"; path = "Target Support Files/Pods-AYEmptyDataView_Example/Pods-AYEmptyDataView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7ED31A3F564CB378312F6B52 /* Pods-AYEmptyDataView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYEmptyDataView_Tests.release.xcconfig"; path = "Target Support Files/Pods-AYEmptyDataView_Tests/Pods-AYEmptyDataView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88DAB0FB755852F49606FD9D /* Pods-AYEmptyDataView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYEmptyDataView_Example.release.xcconfig"; path = "Target Support Files/Pods-AYEmptyDataView_Example/Pods-AYEmptyDataView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		99658098261419540019FC5C /* Pods_AYEmptyDataView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AYEmptyDataView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12439569CDFC15946468249 /* Pods_AYEmptyDataView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYEmptyDataView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDA70FA2895E15B526A94B00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E82F64B3CB7BA2141F07D743 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CDA70FA2895E15B526A94B00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E82F64B3CB7BA2141F07D743 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F298D94DF0ECBEF5B1414BB0 /* Pods_AYEmptyDataView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYEmptyDataView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F3F7824454B5B6099AE3E6B /* Pods_AYEmptyDataView_Example.framework in Frameworks */,
+				99658099261419540019FC5C /* Pods_AYEmptyDataView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +143,7 @@
 		B4C3481FDE34DD14EBBDC097 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99658098261419540019FC5C /* Pods_AYEmptyDataView_Example.framework */,
 				A12439569CDFC15946468249 /* Pods_AYEmptyDataView_Example.framework */,
 				F298D94DF0ECBEF5B1414BB0 /* Pods_AYEmptyDataView_Tests.framework */,
 			);
@@ -156,7 +158,6 @@
 				5FBFAF3F1F2BBE86378B1A17 /* Pods-AYEmptyDataView_Tests.debug.xcconfig */,
 				7ED31A3F564CB378312F6B52 /* Pods-AYEmptyDataView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +272,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AYEmptyDataView_Example/Pods-AYEmptyDataView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AYEmptyDataView/AYEmptyDataView.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AYEmptyDataView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -479,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AYEmptyDataView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AYEmptyDataView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

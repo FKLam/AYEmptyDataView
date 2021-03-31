@@ -1,0 +1,32 @@
+PODS:
+  - AYEmptyDataView (0.1.0):
+    - RxCocoa (~> 4.1.2)
+    - RxSwift (~> 4.1.2)
+    - SnapKit (~> 4.0.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - AYEmptyDataView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  AYEmptyDataView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYEmptyDataView: 25bc785763b4be780b23e1f2339a1908a6ef8f3a
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: 857be771feff1c65e0e29c17d74144b95254c7db
+
+COCOAPODS: 1.10.0
